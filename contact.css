@@ -1,0 +1,152 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #FFFFFF;
+    color: #333;
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #F68B21; /* Orange background for navbar */
+}
+
+.navbar-brand {
+    color: white !important; /* Ensures the brand text is white */
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: #333; /* Darker color for the span part */
+}
+ul{
+    margin-left: 333px;
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Ensures nav link text is white */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #333 !important; /* Changes text color on hover */
+}
+
+.btn-outline-light {
+    color:  #F68B21;
+    border-color: white;
+    background: white;
+}
+
+.btn-outline-light:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: transparent;
+}
+
+
+/* Main Content */
+main {
+    padding: 1rem;
+}
+
+.contact-intro {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contact-intro h1 {
+    color: #F68B21;
+    margin-bottom: 1rem;
+}
+
+.contact-intro p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+/* Contact Links */
+.contact-links {
+    background: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 14px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.social-media {
+    margin-bottom: 1.5rem;
+}
+
+.social-link {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #F68B21;
+}
+
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F68B21;
+    font-size: 1.2em;
+    margin-top: 1.5rem;
+}
+.whatsapp-link:hover{
+    color: #333;
+}
+.whatsapp-link i {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.whatsapp-link span {
+    vertical-align: middle;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #F68B21;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-intro h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-links {
+        padding: 1rem;
+    }
+
+    .social-link, .whatsapp-link i {
+        font-size: 1.5rem;
+    }
+
+    .whatsapp-link span {
+        font-size: 1em;
+    }
+}
