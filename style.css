@@ -12,6 +12,7 @@ body {
     background: #FFFFFF;
     color: #333;
 }
+
 /* Navbar Styling */
 .navbar {
     background-color: #F68B21; /* Orange background for navbar */
@@ -25,9 +26,7 @@ body {
 .navbar-brand span {
     color: #333; /* Darker color for the span part */
 }
-ul{
-    margin-left: 333px;
-}
+
 .navbar-nav .nav-link {
     color: white !important; /* Ensures nav link text is white */
 }
@@ -37,7 +36,7 @@ ul{
 }
 
 .btn-outline-light {
-    color:  #F68B21;
+    color: #F68B21;
     border-color: white;
     background: white;
 }
@@ -118,8 +117,9 @@ footer {
         align-items: center;
         justify-content: space-between;
     }
+
     ul {
-        margin-left: 23px;
+        margin-left: 23px; /* Adjust the left margin for larger screens */
     }
 
     .product-image, .product-details {
@@ -128,7 +128,7 @@ footer {
     }
 
     .product-image {
-        max-width: 50%;
+        max-width: 50%; /* Limit the image width to half of the container */
     }
 }
 
