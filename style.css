@@ -118,6 +118,9 @@ footer {
         align-items: center;
         justify-content: space-between;
     }
+    ul {
+        margin-left: 33px;
+    }
 
     .product-image, .product-details {
         flex: 1;
